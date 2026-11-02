@@ -61,7 +61,7 @@ footer .note{margin:0; color:var(--muted); font-size:14px}
 h2{color:#262a20;text-transform:none;letter-spacing:-.01em;font-size:22px;font-weight:700}
 .card{background:#fafaf0;border:1px solid #dcdccb;border-radius:20px;padding:20px}
 
-body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;background-image:radial-gradient(#dcdccb 1px, transparent 1px);background-size:22px 22px}
+background-image:radial-gradient(#dcdccb 1px, transparent 1px);background-size:22px 22px;
 </style>
 </head>
 <body>
@@ -76,7 +76,7 @@ body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;back
 
 <section class="about" id="about">
   <h2>关于</h2>
-  <p>缓存命中的埋点口径是我的主要工作方向。 当前以硕士阶段研究角色的方式推进项目。</p>
+  <p>缓存命中的埋点口径是我的主要工作方向。</p>
   <ul class="traits">
     <li>破坏性变更一律先说。</li>
     <li>版本之间的差异要能查得到。</li>
@@ -89,20 +89,12 @@ body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;back
   <div class="grid two">
     <article class="card">
       <h3>缓存命中的埋点口径的基线选择与对照设计</h3>
-      <span class="status">持续跟进</span>
     </article>
     <article class="card">
       <h3>缓存命中的埋点口径的判定依据与复核方式</h3>
-      <span class="status">持续跟进</span>
     </article>
     <article class="card">
       <h3>缓存命中的埋点口径里容易误判的情形与反例</h3>
-      <span class="status">持续跟进</span>
-    </article>
-    <article class="card">
-      <h3>在推进的问题</h3>
-      <p>（缓存命中的埋点口径场景）如何设计对照，才能把缓存命中的埋点口径的真实变化与评测口径变化分开？用缓存命中与复用报告两者之差。</p>
-      <span class="status">进行中</span>
     </article>
   </div>
 </section>
@@ -110,9 +102,6 @@ body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;back
 <section id="work">
   <h2>开源</h2>
   <ul class="repos">
-    <li><div class="name"><a href="https://github.com/sylviakesm/cache_ablation_matrix_034dff77" rel="noopener">cache_ablation_matrix_034dff77</a></div>
-      <div class="desc">（缓存命中的埋点口径场景）如何设计对照，才能把缓存命中的埋点口径的真实变化与评测口径变化分开？用缓存命中与复用报告两者之差。</div>
-    </li>
     <li><div class="name"><a href="https://github.com/sylviakesm/hitmetric" rel="noopener">hitmetric</a></div>
       <div class="desc">按段落统计缓存命中的埋点口径相关的长度分布，标出过长、过短与重复表达的部分</div>
     </li>
